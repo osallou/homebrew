@@ -6,8 +6,9 @@ require "formula"
 
 class Logol < Formula
   homepage "http://logol.genouest.org"
-  url "https://gforge.inria.fr/frs/download.php/33588/logol_1.7.1.orig.tar.bz2"
-  sha1 "42b7393985366104db555c034d8975a2feaf71ef"
+  url "https://gforge.inria.fr/frs/download.php/33588/logol_1.7.2.orig.tar.bz2"
+  version "1.7.2"
+  sha256 "7c55105fe81336d6d9c238ad15b4d8d500c9a21d6e71ae4dcdb475a4cbd0e4c4"
 
    depends_on "ant" => :build
    depends_on "cassiopee"
